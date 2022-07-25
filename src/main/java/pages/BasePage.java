@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class BasePage {
 
-    WebDriver driver;
+    public WebDriver driver;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
@@ -17,4 +17,5 @@ public class BasePage {
     public void navigateBack() {
         driver.navigate().back();
     }
+
 }
